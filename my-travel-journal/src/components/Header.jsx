@@ -1,5 +1,10 @@
+import logo from "../../public/logo.png"
+
 export default function Header() {
     return (
-        <h1>Header</h1>
+        <header>
+            <img className="header-logo" src={logo}/>
+            <p className="header-text">my travel journal.</p>
+        </header>
     )
 }
