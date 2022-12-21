@@ -31,6 +31,10 @@
     margin-left: 4px;
 }
 
+.journal-location > img {
+    width: 7px;
+}
+
 .journal-location > a {
     color: #918E9B;
     margin-left: 12px;
