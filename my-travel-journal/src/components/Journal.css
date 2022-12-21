@@ -2,6 +2,15 @@
     width: 470px;
     display: flex;
     font-size: 10.24px;
+    color: #2B283A;
+    margin: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 8px 6px -6px #f5f5f5;
+}
+
+.journal-text {
+    margin: auto;
+    margin-left: 15px;
 }
 
 .journal-image {
@@ -34,4 +43,8 @@
 
 .journal-date {
     font-weight: 700;
+}
+
+.journal-description {
+    line-height: 150%;
 }
