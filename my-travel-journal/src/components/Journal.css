@@ -1,0 +1,26 @@
+.journal {
+    width: 470px;
+    display: flex;
+}
+
+.journal-image {
+    height: 125;
+    border-radius: 5px;
+}
+
+.journal-location {
+    display: flex;
+    align-items: center;
+    font-size: 10.24px;
+}
+
+.journal-location > h4 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 4px;
+}
+
+.journal-location > a {
+    color: #918E9B;
+    margin-left: 12px;
+}
