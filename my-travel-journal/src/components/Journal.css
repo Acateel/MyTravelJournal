@@ -1,6 +1,7 @@
 .journal {
     width: 470px;
     display: flex;
+    font-size: 10.24px;
 }
 
 .journal-image {
@@ -11,7 +12,6 @@
 .journal-location {
     display: flex;
     align-items: center;
-    font-size: 10.24px;
 }
 
 .journal-location > h4 {
@@ -23,4 +23,15 @@
 .journal-location > a {
     color: #918E9B;
     margin-left: 12px;
+}
+
+.journal-title {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 0px;
+}
+
+.journal-date {
+    font-weight: 700;
 }
