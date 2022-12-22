@@ -3,10 +3,10 @@ import './Journal.css'
 export default function Journal(props){
     return (
         <section className="journal">
-            <img className="journal-image" src={`../../public/images/${props.item.imageUrl}`} alt={props.item.title}/>
+            <img className="journal-image" src={`../../public/${props.item.imageUrl}`} alt={props.item.title}/>
             <div className="journal-text">
                 <div className="journal-location">
-                    <img src="../../public/images/map-point.png"/>
+                    <img src="../../public/map-point.png"/>
                     <h4>{props.item.location}</h4>
                     <a href={props.item.googleMapsUrl}>View on Google Maps</a>
                 </div>
